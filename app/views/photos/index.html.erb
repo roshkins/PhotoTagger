@@ -1,0 +1,13 @@
+<div class="header">
+	<a href="#" id="createLink">Create</a> |
+	<a href="#" id="indexLink">Index</a>
+</div>
+<div id="content"></div>
+
+<script type="text/javascript" charset="utf-8">
+	$(function () {
+		var photoController = new window.PhotoTagger.PhotoViewController($("#content"));
+		photoController.index();
+		var photoTaggingController = new window.PhotoTagger.PhotoTaggingViewController($('#content'));
+	});
+</script>

@@ -12,4 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.serializeJSON.min
+//= require_tree ./templates/
+//= require_tree ./models/
+//= require_tree ./controllers/
 //= require_tree .
